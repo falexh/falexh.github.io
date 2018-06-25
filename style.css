@@ -1,0 +1,78 @@
+
+@font-face {
+  src: url(fonts/JuliusSansOne-Regular.ttf);
+  font-family: julius;
+}
+
+@keyframes ani{
+
+  0% {background-color: lightblue;}
+  25% {background-color: grey;}
+  50% {background-color: lightblue;}
+  100% {background-color: orange;}
+
+}
+
+
+
+
+html
+{
+  color: #333;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 250;
+}
+
+h1
+{
+  font-family: julius;
+  transform-origin: center;
+
+}
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(red,.1);
+  background-color: lightblue;
+  min-height: 200px;
+  background-image: linear-gradient(to bottom, rgba(#432, .4), transparent);
+  padding: 2rem;
+  color: 0;
+  text-align: center;
+  letter-spacing: 2px;
+  animation: ani 30000ms ease-in-out infinite;
+
+
+}
+
+.marq
+{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: blue;
+}
+
+
+@media  (max-width: 960px) {
+  body
+  {
+    background: royalblue;
+  }
+
+}
+
+@media (max-width: 480px) {
+  body
+  {
+    background: darkred;
+  }
+}
+
+@media (min-width: 769px;) {
+body
+{
+  background: red;
+}
