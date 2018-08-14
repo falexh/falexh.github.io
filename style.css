@@ -1,0 +1,159 @@
+html,body{
+  background-color: lightcoral;
+  height:100%;
+
+}
+
+#sItems{
+  list-style-type: none;
+  padding-top: 5px;
+}
+
+#subItems{
+  display: inline-block;
+}
+
+
+
+.container-fluid{
+  height:100%;
+  overflow-y: hidden;
+}
+
+.row-fluid{
+  text-align:center;
+}
+.img-responsive{
+  margin:0 auto;
+}
+
+.capTitle{
+  color: moccasin;
+}
+
+#mainTopper{
+  background-color: black;
+}
+
+#mainTitle{
+  text-align: center;
+  color: lightslategrey;
+  font-family: Gruppo;
+  font-size: 19px;
+}
+
+#subbTitle{
+  text-align: center;
+  color: white;
+  font-family: Poiret One;
+}
+
+#mainBody{
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#dlMain{
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#determCost{
+  background-color: lightblue;
+}
+
+#btmPart{
+  text-align: center;
+}
+
+
+/* BOTTOM */
+#sMedia{
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page{
+/*  display: inline-block;*/
+}
+
+#bottomPart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  /*padding-top: 25px;*/
+
+}
+
+
+/* ABOUT PAGE */
+
+#aboutBody{
+  color: black;
+}
+
+#subBody{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* TRAIL PAGE */
+
+#lister{
+  color: white;
+}
+
+/* DOWNLOAD PAGE */
+#dlBody{
+  color: lightblue;
+}
+
+#dlTime{
+  color: papayawhip;
+}
+
+#getOut{
+  color: khaki;
+  font-family: Gruppo;
+  font-size: 30px;
+}
+
+
+/* Social Media */
+
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover{
+  background-color: #000;
+}
+
+.fa-facebook {
+  /*background: #3B5996;*/
+  background: purple;
+  color: white;
+}
+
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-twitter {
+    background: grey;
+    color: white;
+}
